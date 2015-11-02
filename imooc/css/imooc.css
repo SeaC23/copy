@@ -1,0 +1,358 @@
+/*commom*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	    font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
+}
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+input{
+	border: none;
+}
+
+/*header*/
+.font-style{
+	color: #787d82;
+	font-size: 14px;
+	line-height: 60px;
+}
+
+.header{
+	height: 60px;
+	width: 100%;
+	background: #000;
+}
+.logo{
+	height: 60px;
+	width: 140px;
+	margin: 0 20px;
+	float: left;
+}
+.logo a{
+	display: block;
+	height: 60px;
+	width: 140px;
+	background: url(../images/logo.png) no-repeat center center;
+}
+.nav{
+	height: 60px;
+	width: 320px;
+	float: left;
+}
+.nav ul li{
+	float: left;
+	width: 80px;
+	height: 60px;
+}
+.nav ul li a{
+	text-align: center;
+	height: 60px;
+	display: block;
+}
+.nav ul li a:hover{
+	color: #fff;
+	background: #47494A;
+}
+.search{
+	width: 240px;
+	height: 30px;
+	float: right;
+	line-height: 30px;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+.search .search-input{
+	padding: 5px 10px;
+    width: 190px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    float: left;
+    border: 0;
+    background: #363c41;
+    color: #14191e;
+}
+.search .search-btn{
+	height: 30px;
+	width: 30px;
+	background: url(../images/gsearch-sprite.png) no-repeat 0 0;
+	background-color: #363c41;
+	float: right;
+}
+
+.person{
+	height: 60px;
+	width: 120px;
+	float: right;
+}
+.person ul li{
+	float: left;
+	height: 60px;
+	width: 60px;
+}
+.person ul li.message{
+	background: url(../images/icon_msg.png) no-repeat center center;
+}
+.person ul li.login a{
+	width: 40px;
+	height: 40px;
+	line-height: 60px;
+}
+.person ul li.login a img{
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	display: inline-block;
+	border: 2px solid transparent;
+	border-radius: 100%;
+	background: url(../images/55c7281500019f3b02000200-40-40.jpg) no-repeat center center;
+}
+.person ul li.login a img:hover{
+	border: 2px red solid;
+}
+
+.imooc-app{
+	float: right;
+}
+.imooc-app a{
+	display: block;
+	padding: 0 8px;
+	height: 60px;
+}
+.imooc-app a i{
+	display: inline-block;
+	height: 16px;
+	width: 12px;
+	vertical-align: -3px;
+	margin-right: 5px;
+	background: url(../images/head-app-icon.png) no-repeat 0 0;
+}
+
+/*banner.css*/
+
+.banner{
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.banner ul li{
+	height: 600px;
+	width: 100%;
+	float: left;
+	
+}
+
+.cho{
+	width: 32px;
+	height: 10px;
+	
+	position: absolute;
+	bottom:10px;
+	left: 50%;
+	margin-left: -8px;
+
+	z-index: 100;
+}
+.cho ul li{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	background: #fff;
+	float: left;
+	margin-right: 6px;	
+}
+
+.characters{
+	width: 100%;
+	height: 283px;
+}
+.characters-wrap{
+	position: relative;
+	padding: 50px 120px;
+	height: 183px;
+
+}
+.characters-wrap span.icon-1{
+	background: url(../images/char-icon1.png) no-repeat 0 0;
+	height: 183px;
+	width: 135px;
+	position: absolute;
+	left: 120px;
+}
+.characters-wrap span.icon-2{
+	background: url(../images/char-icon2.png) no-repeat 0 0;
+	height: 181px;
+	width: 180px;
+	position: absolute;
+	left: 50%;
+	margin-left: -96px;
+}
+.characters-wrap span.icon-3{
+	background: url(../images/char-icon3.png) no-repeat 0 0;
+	height: 181px;
+	width: 166px;
+	position: absolute;
+	right: 120px;
+}
+
+/*intro.css*/
+.intro1{
+	height: 400px;
+	width: 100%;
+}
+.id-minwidth{
+	min-width: 1200px;
+}
+.bg-grey{
+	background-color: #eef1f2;
+}
+.bg-white{
+	background-color: #fff;
+}
+.intro1-wrap,
+.intro2-wrap,
+.intro3-wrap,
+.intro4-wrap{
+	height: 400px;
+	position: relative;
+}
+.id-width{
+	width: 1200px;
+	margin: 0 auto;
+}
+.intro1-wrap .intro1-star{
+	height: 431px;
+	width: 581px;
+	background: url(../images/01-star.png) no-repeat 0 0;
+	position: absolute;
+	top: -20px;
+    left: -15px;
+    z-index: 10;
+}
+.intro1-wrap .instro1-video-wrap .intro1-video{
+	position: absolute;
+    height: 431px;
+    width: 581px;
+    bottom:0;
+    /*bottom: -30px;*/
+    left: -15px;
+    /*opacity: 0;*/
+    z-index: 9;
+    /*filter: alpha(opacity=0);*/
+    background: url(../images/01-video.png) no-repeat 0 0;
+}
+.intro1-wrap .intro1-text{
+	position: absolute;
+	right: 105px;
+	top: 164px;
+	/*opacity: 0;*/
+	/*filter: alpha(opacity=0);*/
+	width: 493px;
+	height: 70px;
+	background: url(../images/01-text.png) no-repeat 0 0;
+	
+}
+
+
+.intro2-wrap .intro2-text{
+	position: absolute;
+	left: 105px;
+	top: 165px;
+	/*opacity: 0;*/
+	/*filter: alpha(opacity=0);*/
+	width: 512px;
+	height: 70px;
+	background: url(../images/02-text.png) no-repeat 0 0;
+}
+.intro2-wrap .intro2-computer1{
+	background: url(../images/02-computer1.png) no-repeat center 0;
+	position: absolute;
+	width: 580px;
+	height: 430px;
+	top: -30px;
+	right: 0;
+	/*opacity: 0;*/
+}
+.intro3-wrap .intro3-rockets,
+.intro3-wrap .intro3-calender,
+.intro3-wrap .intro3-smoke{
+	position: absolute;
+	left: 0;
+	top: 0px;
+	width: 581px;
+	height: 431px;
+	/*opacity: 0;
+	filter: alpha(opacity=0);*/
+}
+.intro3-wrap .intro3-text{
+	position: absolute;
+    width: 476px;
+    height: 70px;
+    right: 165px;
+    top: 165px;
+    /*opacity: 0;
+    filter: alpha(opacity=0);*/
+    background: url(../images/03-text.png) no-repeat;
+}
+.intro3-wrap .intro3-calender{
+	background: url(../images/03-calendar.png) no-repeat 0 0;
+	top: -31px;
+}
+.intro3-wrap .intro3-smoke{
+	background: url(../images/03-smoke.png) no-repeat 0 0;
+	top: -31px;
+}
+.intro3-wrap .intro3-rockets{
+	background: url(../images/03-rockets.png) no-repeat 0 0;
+	top: -46px;
+}
+
+.intro4-wrap .intro4-text{
+	position: absolute;
+    width: 422px;
+    height: 70px;
+    top: 165px;
+    left: 146px;
+    /*opacity: 0;
+    filter: alpha(opacity=0);*/
+    background: url(../images/04-text.png) no-repeat;
+}
+.intro4-wrap .intro4-hand{
+	z-index: 9;
+    /*opacity: 0;*/
+    top: 0;
+    /*filter: alpha(opacity=0);*/
+    background: url(../images/04-hand.png) no-repeat 0 0;
+}
+.intro4-wrap .intro4-icon{
+	z-index: 10;
+    /*opacity: 0;
+    filter: alpha(opacity=0);*/
+    background: url(../images/04-icon.png) no-repeat 0 0;
+}
+.intro4-wrap .intro4-hand,
+.intro4-wrap .intro4-icon{
+	position: absolute;
+    right: 0;
+    /*top: 0;*/
+    top: -30px;
+    width: 581px;
+    height: 430px;
+}
